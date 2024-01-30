@@ -1,7 +1,7 @@
 import { View, Text, Button } from 'react-native';
 import React from 'react';
-import { useAuth } from '@clerk/clerk-expo';
 import { Link } from 'expo-router';
+import { useAuth } from '@clerk/clerk-expo';
 
 const Page = () => {
   const { isSignedIn, signOut } = useAuth();
